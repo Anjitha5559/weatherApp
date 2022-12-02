@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="weather1.css">
+    <script src="weather.js" defer></script>
+</head>
+
+<body>
+    <div id="climateicon">
+        <img src="icon.png" id="icon" onclick="info()">
+    </div>
+    <div id="info">
+        
+    </div>
+    <div id="box">
+
+
+        <div id="search">
+            <div>
+                <input type="text" id="searchhere" placeholder="Search">
+            </div>
+            <div>
+                <img src="search.png" id="searchimg" onclick="getWeatherData">
+            </div>
+    </div>
+
+        <div id="weathershow">
+           
+            <div id="city" class="datas">
+            </div>
+            <div id="country"class="datas">
+            </div>
+            <div id="temp"class="datas">
+            </div>
+            <div id="humidity"class="datas">
+            </div>
+            <div id="pressure"class="datas">
+            </div>
+            <div id="sealevel"class="datas">
+            </div>
+            <div id="description"class="datas">
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+
+</html>
